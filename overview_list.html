@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Document</title>
+<link href="/src/css/common.css" rel="stylesheet"><link href="/src/css/overview_list.css" rel="stylesheet"></head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <header class="pc-head"> <div class="top center wow fadeInDown"> <ul class="contact-list"> <li class="contact-item"> <i class="icon iconfont icon-tubiao210"></i> <a href="tel:+1(510)345-2899">+1(510)345-2899</a> </li> <li class="contact-item"> <i class="icon iconfont icon-youxiang_huaban"></i> <a href="mailto:info@greenvalleyintl.com">info@greenvalleyintl.com</a> </li> <li class="contact-item"> <i class="icon iconfont icon-dizhi"></i> <a href="javascript:;">2120 University Ave, Berkeley 94704, California, USA</a> </li> </ul> <ul class="icon-list"> <li class="icon-item"> <a href="javascript:;" class="common-formShow"> Subscribe </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-facebook"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-linkedin"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-Youtube"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-twitter"></i> </a> </li> </ul> </div> <div class="bottom center"> <a href="/" class="logo wow fadeInLeft"> <img src="/public/img/logo.png" alt=""> </a> <ul class="nav-list wow fadeInRight"> <li class="nav-item"> <a href=""> products <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub-list"> <li class="nav-sub-item"> <a href="/overview_list.html"> <span>LiAir</span> <i class="icon iconfont icon-iconfontjiantou2"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="overview_view.html">LiAir 50N</a> </li> <li class="nav-sub3-item"> <a href="overview_view.html">LiAirV70</a> </li> <li class="nav-sub3-item"> <a href="overview_view.html">LiAir220</a> </li> <li class="nav-sub3-item"> <a href="overview_view.html">LiAir250</a> </li> <li class="nav-sub3-item"> <a href="overview_view.html">LiEagle</a> </li> <li class="nav-sub3-item"> <a href="overview_view.html">LiHawk</a> </li> </ul> </li> <li class="nav-sub-item"> <a href=""> <span>series-Libackpack</span> <i class="icon iconfont icon-iconfontjiantou2"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="">LiBackpack C50</a> </li> <li class="nav-sub3-item"> <a href="">LiBackpackDGC50</a> </li> </ul> </li> <li class="nav-sub-item"> <a href="">series-Limobile</a> </li> <li class="nav-sub-item"> <a href=""> <span>series-Software</span> <i class="icon iconfont icon-iconfontjiantou2"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="/LiDAR360.html">LiDAR360</a> </li> <li class="nav-sub3-item"> <a href="/Lipowerline.html">LiPowerline</a> </li> <li class="nav-sub3-item"> <a href="/Lifuser_BP.html">LiFuser-BP</a> </li> <li class="nav-sub3-item"> <a href="">LiGeoreference</a> </li> <li class="nav-sub3-item"> <a href="">LiAcquire</a> </li> </ul> </li> <li class="nav-sub-item"> <a href="/overview_list.html">Overview</a> </li> </ul> </li> <li class="nav-item"> <a href="/application_list.html"> applications <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub-list"> <li class="nav-sub-item"> <a href="/application_view.html">Forestry</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Minning</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Powerline</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">AEC</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Terrain</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">LiHawk</a> </li> </ul> </li> <li class="nav-item"> <a href="/service.html"> services </a> </li> <li class="nav-item"> <a href="/event_list.html"> blog </a> </li> <li class="nav-item"> <a href="/support.html">support</a> </li> <li class="nav-item"> <a href="/contact.html"> contact <i class="icon iconfont"></i> </a> </li> <li class="nav-item"> <a href="/"> Login <i class="icon iconfont"></i> </a> </li> </ul> </div> </header> <header class="mobile-head"> <div class="head-show"> <a href="/" class="logo wow fadeInLeft"> <img src="/public/img/logo.png" alt=""> </a> <div class="menu wow fadeInRight"> <span></span> <span></span> <span></span> </div> </div> <div class="main-head-container"> <div class="top"> <ul class="nav-list"> <li class="nav-item"> <a href="javascript:;"> <span>products</span> <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub-list"> <li class="nav-sub-item"> <a href="javascript:;"> <span>LiAir</span> <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="">LiAir 50N</a> </li> <li class="nav-sub3-item"> <a href="">LiAirV70</a> </li> <li class="nav-sub3-item"> <a href="">LiAir220</a> </li> <li class="nav-sub3-item"> <a href="">LiAir250</a> </li> <li class="nav-sub3-item"> <a href="">LiEagle</a> </li> <li class="nav-sub3-item"> <a href="">LiHawk</a> </li> </ul> </li> <li class="nav-sub-item"> <a href="javascript:;"> <span>series-Libackpack</span> <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="">LiBackpack C50</a> </li> <li class="nav-sub3-item"> <a href="">LiBackpackDGC50</a> </li> </ul> </li> <li class="nav-sub-item"> <a href="">series-Limobile</a> </li> <li class="nav-sub-item"> <a href="javascript:;"> <span>series-Software</span> <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub3-list"> <li class="nav-sub3-item"> <a href="">LiDAR360</a> </li> <li class="nav-sub3-item"> <a href="">LiPowerline</a> </li> <li class="nav-sub3-item"> <a href="">LiFuser-BP</a> </li> <li class="nav-sub3-item"> <a href="">LiGeoreference</a> </li> <li class="nav-sub3-item"> <a href="">LiAcquire</a> </li> </ul> </li> <li class="nav-sub-item"> <a href="/overview_list.html">Overview</a> </li> </ul> </li> <li class="nav-item"> <a href="javascript:;"> <span>applications</span> <i class="icon iconfont icon-arrow-down"></i> </a> <ul class="nav-sub-list"> <li class="nav-sub-item"> <a href="/application_view.html">Forestry</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Minning</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Powerline</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">AEC</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">Terrain</a> </li> <li class="nav-sub-item"> <a href="/application_view.html">LiHawk</a> </li> </ul> </li> <li class="nav-item"> <a href="/service.html"> <span>services</span> </a> </li> <li class="nav-item"> <a href="/event_list.html"> <span>blog</span> </a> </li> <li class="nav-item"> <a href="javascript:;"> <span>support</span> </a> </li> <li class="nav-item"> <a href="/contact.html"> <span>contact</span> </a> </li> <li class="nav-item"> <a href="/"> <span>Login</span> </a> </li> </ul> </div> <div class="bottom center"> <ul class="contact-list"> <li class="contact-item"> <i class="icon iconfont icon-tubiao210"></i> <a href="tel:+1(510)345-2899">+1(510)345-2899</a> </li> <li class="contact-item"> <i class="icon iconfont icon-youxiang_huaban"></i> <a href="mailto:info@greenvalleyintl.com">info@greenvalleyintl.com</a> </li> <li class="contact-item"> <i class="icon iconfont icon-dizhi"></i> <a href="javascript:;">2120 University Ave, Berkeley 94704, California, USA</a> </li> </ul> <ul class="icon-list"> <li class="icon-item"> <a href="javascript:;" class="common-formShow">Subscribe</a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-facebook"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-linkedin"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-Youtube"></i> </a> </li> <li class="icon-item"> <a href=""> <i class="icon iconfont icon-twitter"></i> </a> </li> </ul> </div> </div> </header> <section class="common-form-container" id="common_forms"> <div class="mask"></div> <div class="form-wrapper"> <div class="title"> <span>Subscribe</span> <i class="iconfont close icon-close" @click="close"></i> </div> <form @submit.prevent="formSubmit"> <div class="inp"> <label for="">First Name<span>*</span></label> <input type="text" autocomplete="off" v-model="formData['First Name']"> </div> <div class="inp"> <label for="">Last Name<span>*</span></label> <input type="text" autocomplete="off" v-model="formData['Last Name']"> </div> <div class="inp"> <label for="">Company/University<span>*</span></label> <input type="text" autocomplete="off" v-model="formData['Company/University']"> </div> <div class="inp"> <label for="">Email<span>*</span></label> <input type="text" autocomplete="off" v-model="formData['Email']"> </div> <div class="inp"> <label for="">Which software are you interested in?<span>*</span></label> <select name="" id="" v-model="formData['Which software are you interested in?']"> <option selected="selected" disabled="disabled" value="">please choose</option> <option value="LiAir V70">LiAir V70</option> <option value="LiAir 50N">LiAir 50N</option> <option value="LiAir 220N">LiAir 220N</option> <option value="LiAir 250">LiAir 250</option> <option value="LiEagle">LiEagle</option> <option value="LiHawk">LiHawk</option> <option value="LiBackpack C50">LiBackpack C50</option> <option value="LiBackpack DGC50">LiBackpack DGC50</option> <option value="LiMobile Standard">LiMobile Standard</option> <option value="LiPod">LiPod</option> <option value="LiDAR360">LiDAR360</option> <option value="LiPowerline">LiPowerline</option> </select> </div> <div class="btn"> <button class="submit" type="submit">Submit</button> <button class="reset" type="reset">Reset</button> </div> </form> </div> </section>
+    <section class="banner-container" style="background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/public/img/overview/banner.jpg);">
+      <div class="main-view center">
+        <div class="text">
+          <div class="title wow fadeInUp" data-wow-delay=".2s">Overview</div>
+          <div class="info wow fadeInUp" data-wow-delay=".5s">
+            Comprehensive Point Cloud Post-Processing Suite
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs-container">
+      <div class="main-view center">
+        <div class="crumbs-wrapper wow fadeInLeft">
+          <a href="">HOME</a>
+          <span>&gt;&gt;</span>
+          <a href="">OVERVIEW</a>
+        </div>
+      </div>
+    </section>
+    <section class="main-product-container module bg-gray">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title">Hardware</h2>
+          <div class="info">Here is the introduction of the hardware</div>
+        </div>
+        <ul class="cate-list">
+          <!-- 这里选中当前分类，有个active -->
+          <li class="cate-item">
+            <a href="#LiAir" title="LiAir Series">LiAir Series</a>
+          </li>
+          <li class="cate-item">
+            <a href="#LiBackpack" title="LiBackpack Series">LiBackpack Series</a>
+          </li>
+          <li class="cate-item">
+            <a href="#LiEagle" title="LiEagle">LiEagle</a>
+          </li>
+          <li class="cate-item">
+            <a href="#LiHawd" title="LiHawd">LiHawd</a>
+          </li>
+          <li class="cate-item">
+            <a href="#LiMobile" title="LiMobile">LiMobile</a>
+          </li>
+        </ul>
+        <div class="pro-wrap">
+          <dl class="pro-box-list" id="LiAir">
+            <dt class="pro-title">
+              <div class="title">
+                LiAir Series
+              </div>
+            </dt>
+            <dd class="pro-rslist">
+              <ul class="pro-rslist-list">
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="pro-box-list" id="LiBackpack">
+            <dt class="pro-title">
+              <div class="title">
+                LiBackPack
+              </div>
+            </dt>
+            <dd class="pro-rslist">
+              <ul class="pro-rslist-list">
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="pro-box-list one ml0" id="LiEagle">
+            <dt class="pro-title">
+              <div class="title">
+                LiEagle
+              </div>
+            </dt>
+            <dd class="pro-rslist">
+              <ul class="pro-rslist-list">
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="pro-box-list one" id="LiHawd">
+            <dt class="pro-title">
+              <div class="title">
+                LiHawk
+              </div>
+            </dt>
+            <dd class="pro-rslist">
+              <ul class="pro-rslist-list">
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+          <dl class="pro-box-list one mr0" id="LiMobile">
+            <dt class="pro-title">
+              <div class="title">
+                LiMobile
+              </div>
+            </dt>
+            <dd class="pro-rslist">
+              <ul class="pro-rslist-list">
+                <li class="pro-rslist-item">
+                  <div class="head">
+                    <div class="model-box">
+                      <div class="model">
+                        LiAir<span>250</span>
+                      </div>
+                      <a href="overview_view.html">
+                        <i class="icon iconfont icon-youjiantou"></i>
+                      </a>
+                    </div>
+                    <div class="img">
+                      <img src="/public/img/product/product01.png" alt="">
+                    </div>
+                    <p class="note">UAV 3D Mapping System</p>
+                  </div>
+                  <div class="body">
+                    <div class="title">
+                      Specifications
+                    </div>
+                    <table class="scroll">
+                      <tbody>
+                        <tr class="firstRow">
+                          <td>Laser Sensor</td>
+                          <td>Riegl miniVUX-1 UAV</td>
+                        </tr>
+                        <tr>
+                          <td>Range Accuracy</td>
+                          <td>0.3~250 m@ Reflectance ≥60%</td>
+                        </tr>
+                        <tr>
+                          <td>System Accuracy</td>
+                          <td>±3 cm</td>
+                        </tr>
+                        <tr>
+                          <td rowspan="2" colspan="1">POS System Performance</td>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Attitude: 0.006° (1σ)</td>
+                        </tr>
+                        <tr>
+                          <td>Onboard Storage</td>
+                          <td>128 GB</td>
+                        </tr>
+                        <tr>
+                          <td>Ports Available</td>
+                          <td>Ethernet</td>
+                        </tr>
+                        <tr>
+                          <td>Weight</td>
+                          <td>
+                            3.78 kg excl. <br>
+                            battery & camera
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Dimensions (Main Unit)</td>
+                          <td>1105*145*148 mm</td>
+                        </tr>
+                        <tr>
+                          <td>Max. Flight Time</td>
+                          <td>21 min (M600 Pro)</td>
+                        </tr>
+                        <tr>
+                          <td>Camera</td>
+                          <td>Sony a6000(optional)</td>
+                        </tr>
+                        <tr>
+                          <td>Route Planning Software</td>
+                          <td>LiPlan (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Acquisition /PP POS Software</td>
+                          <td>LiAcquire (proprietary)</td>
+                        </tr>
+                        <tr>
+                          <td>Field of View</td>
+                          <td>up to 360°</td>
+                        </tr>
+                        <tr>
+                          <td>Scan Rate</td>
+                          <td>100,000 pts/s</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+
+      </div>
+    </section>
+    <section class="module software-container bg-green">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title white wow fadeInUp">Software</h2>
+          <div class="line white"></div>
+          <div class="note white wow fadeInUp">Here is the introduction of the software</div>
+        </div>
+      </div>
+      <div class="software-wrapper center">
+        <ul class="software-list">
+          <li class="software-item software-cont wow fadeInRight">
+            <h3 class="title">
+              LiMapper
+            </h3>
+            <div class="info">
+              <p>processing</p>
+              <p>processing</p>
+              <p>processing</p>
+            </div>
+            <a href="" class="more">READ MORE »</a>
+            <img src="/public/img/hardware.png" alt="" class="icon">
+          </li>
+          <li class="software-item software-cont wow fadeInRight">
+            <h3 class="title">
+              LiMapper
+            </h3>
+            <div class="info">
+              <p>processing</p>
+              <p>processing</p>
+              <p>processing</p>
+            </div>
+            <a href="" class="more">READ MORE »</a>
+            <img src="/public/img/hardware.png" alt="" class="icon">
+          </li>
+          <li class="software-item software-cont wow fadeInRight">
+            <h3 class="title">
+              LiPowerLine
+            </h3>
+            <div class="info">
+              <p>Powerline Analysis</p>
+              <p>Powerline Analysis</p>
+              <p>Powerline Analysis</p>
+            </div>
+            <a href="" class="more">READ MORE »</a>
+            <img src="/public/img/hardware.png" alt="" class="icon">
+          </li>
+          <li class="software-item software-cont wow fadeInRight">
+            <h3 class="title">
+              Ligeoreference
+            </h3>
+            <div class="info">
+              <p>georeferencing</p>
+              <p>georeferencing</p>
+              <p>georeferencing</p>
+            </div>
+            <a href="" class="more">READ MORE »</a>
+            <img src="/public/img/hardware.png" alt="" class="icon">
+          </li>
+          <li class="software-item software-cont wow fadeInRight">
+            <h3 class="title">
+              LiCrop
+            </h3>
+            <div class="info">
+              <p>Fast access to data</p>
+              <p>Fast access to data</p>
+              <p>Fast access to data</p>
+            </div>
+            <a href="" class="more">READ MORE »</a>
+            <img src="/public/img/hardware.png" alt="" class="icon">
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <section class="talk-container" style="background-image:url(/public/img/talk-bg.jpg)"> <div class="main-view center"> <div class="text-wrap wow fadeInDown"> <div class="title"> CAN WE HELP YOU </div> <div class="info"> If you need our help, please send us a message.<br> We will contact you in time! </div> </div> <div class="button-wrap wow fadeInUp"> <a href="" class="btn"> Talk Us </a> </div> </div> </section>
+      <footer> <div class="center"> <div class="main-cont"> <div class="company-info"> <div class="logo wow fadeInDown"> <img src="/public/img/logo.png" alt=""> </div> <div class="info wow fadeInUp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam animi laborum? </div> <ul class="contact-list wow fadeInUp"> <li class="contact-item"> <i class="icon iconfont icon-tubiao210"></i> <a href="tel:+1(510)345-2899">+1(510)345-2899</a> </li> <li class="contact-item"> <i class="icon iconfont icon-email-s"></i> <a href="mailto:info@greenvalleyintl.com">info@greenvalleyintl.com</a> </li> <li class="contact-item"> <i class="icon iconfont icon-dizhi"></i> <a href="javascript:;">2120 University Ave, Berkeley 94704, California, USA</a> </li> </ul> </div> <ul class="nav-list"> <li class="nav-item wow fadeInRight"> <h3 class="title"> <a href="">PRODUCT</a> </h3> <a href="">LiAir</a> <a href="">series-Libackpack</a> <a href="">series-Limobile</a> <a href="">series-Software</a> <a href="">OverView</a> </li> <li class="nav-item wow fadeInRight" data-wow-delay="200ms"> <h3 class="title">APPLICATIONS</h3> <a href="">Forestry</a> <a href="">Minning</a> <a href="">Powerline</a> <a href="">AEC</a> <a href="">Terrain</a> <a href="">LiHawk</a> </li> <li class="nav-item wow fadeInRight no-sub" data-wow-delay="400ms"> <h3 class="title">SERVICES</h3> </li> <li class="nav-item wow fadeInRight no-sub" data-wow-delay="600ms"> <h3 class="title">BLOG</h3> </li> <li class="nav-item wow fadeInRight no-sub" data-wow-delay="800ms"> <h3 class="title">SUPPORT</h3> </li> </ul> </div> <div class="copyright wow fadeInUp"> @Copyright @2021 GreenValley International All Rights Reserved. </div> </div> </footer>
+<script src="/src/js/styles~LiDAR360~Lifuser_BP~Lipowerline~application_list~application_view~contact~event_list~event_vi~40d3fbfa.js"></script><script src="/src/js/vendors~LiDAR360~Lifuser_BP~Lipowerline~application_list~application_view~contact~event_list~event_v~0b09270c.js"></script><script src="/src/js/overview_list.js"></script></body>
+
+</html>
