@@ -1,0 +1,23 @@
+
+section.application-container {
+  .main-view {
+    ul.application-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      li.application-item {
+        width: 100%;
+        &:nth-child(2n + 1) {
+          margin-right: 0;
+        }
+        &:nth-child(2n + 2) {
+          margin-left: 0;
+        }
+        &:nth-child(1),
+        &:nth-child(2) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

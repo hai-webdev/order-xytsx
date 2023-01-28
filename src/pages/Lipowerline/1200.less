@@ -1,0 +1,46 @@
+
+section.framework-container {
+  .main-view {
+    .framework-text {
+      .title {
+        font-size: 28px;
+      }
+      .info {
+        line-height: 1.4;
+      }
+    }
+    .framework-video {
+      padding-left: 30px;
+    }
+  }
+}
+section.solutions-cointainer {
+  .main-view {
+    ul.solution-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      li.solution-item {
+        .img {
+          width: 140px;
+          padding-top: calc(140px * 2 / 3);
+        }
+        .text {
+          width: calc(100% - 140px);
+          padding-left: 10px;
+          .title {
+            font-size: 18px;
+            margin-bottom: 5px;
+          }
+          .note {
+            font-size: 14px;
+            -webkit-line-clamp: 2;
+          }
+          a.more {
+            left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

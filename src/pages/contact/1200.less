@@ -1,0 +1,101 @@
+section.banner-container {
+  .main-view {
+    .text {
+      .title {
+        font-size: 32px;
+      }
+      .info {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .note {
+        line-height: 1.6;
+        font-size: 14px;
+      }
+    }
+  }
+}
+section.about-container {
+  .main-view {
+    .info {
+      line-height: 1.7;
+      color: @dark;
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+    ul.about-list {
+      li.about-item {
+        width: calc(50% - 20px);
+      }
+    }
+  }
+}
+
+section.network-container {
+  .main-view {
+    .network-wrapper {
+      border: 3px solid @mainColor;
+      .network-nav-wrap {
+        width: 200px;
+        height: 100%;
+        padding: 15px;
+        ul.network-nav-list {
+          li.network-nav-item {
+            a{
+              font-size: 14px;
+            }
+            &:hover,
+            &.active {
+              &::after {
+                width: calc(100% + 15px);
+              }
+            }
+          }
+        }
+      }
+      .network-subnav-wrap {
+        width: 180px;
+        padding: 15px;
+        ul.network-subnav-list {
+          li.network-subnav-item {
+            a{
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .network-cont-wrap {
+        width: calc(100% - 380px);
+        height: 100%;
+        color: #000;
+        text-align: center;
+        padding: 30px 15px;
+        ul.network-cont-list {
+          li.network-cont-item {
+            .network-content {
+              dl.network-info-list {
+                text-align: left;
+                padding-bottom: 15px;
+                margin-bottom: 15px;
+                &:last-child {
+                  border-bottom: none;
+                  padding-bottom: 0;
+                  margin-bottom: 0;
+                }
+                dt.title {
+                  font-size: 16px;
+                  font-weight: bold;
+                  margin-bottom: 10px;
+                }
+                dd {
+                  margin-bottom: 3px;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

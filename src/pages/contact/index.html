@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container"
+      style="background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/public/img/contact/banner.jpg);">
+      <div class="main-view center">
+        <div class="text">
+          <div class="title wow fadeInUp" data-wow-delay=".2s">GreenValley International</div>
+          <div class="info wow fadeInUp" data-wow-delay=".5s">Map the world in 3D</div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs-container">
+      <div class="main-view center">
+        <div class="crumbs-wrapper wow fadeInLeft">
+          <a href="">HOME</a>
+          <span>&gt;&gt;</span>
+          <a href="">CONTACT US</a>
+        </div>
+      </div>
+    </section>
+    <section class="module about-container bg-gray">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title">
+            About Us
+          </h2>
+        </div>
+        <div class="info">
+          GVI currently offers a wide array of advanced but easy to use aerial, terrestrial, and mobile laser scanning
+          technologies. The firm’s extensive product line features multiple high-precision 3D mapping hardware solutions
+          including: LiAir (unmanned aerial vehicle LiDAR), LiBackpack (handheld/mobile LiDAR), LiEagle (fixed-wing/
+          helicopter LiDAR), and LiMobile (car/truck mounted LiDAR). Along with the cutting-edge hardware product lines,
+          GVI provides versatile software solutions from mission plan (LiPlan) to data acquisition (LiAcquire,
+          LiBackpack Desktop) and from GNSS/IMU data processing (LiNav) to LiDAR georeferencing (LiGeoreference).
+          Moreover, a standalone software suite LiDAR360 Suite is developed for LiDAR and photogrammetry data
+          post-processing for terrain mapping, forestry applications, powerline survey, etc. GVI also provides
+          cloud-based services (LiCloud) for customers easier and better to manage hardware systems and process 3D data.
+        </div>
+        <ul class="about-list">
+          <li class="about-item">
+            <i class="icon iconfont icon-dianhua6"></i>
+            <div class="title">Phone</div>
+            <div class="line"></div>
+            <div class="info">
+              Tel: +1 (510) 345-2899
+            </div>
+          </li>
+          <li class="about-item">
+            <i class="icon iconfont icon-email-s"></i>
+            <div class="title">E-mail</div>
+            <div class="line"></div>
+            <div class="info">
+              info@greenvalleyintl.com
+            </div>
+          </li>
+          <li class="about-item">
+            <i class="icon iconfont icon-home"></i>
+            <div class="title">Address</div>
+            <div class="line"></div>
+            <div class="info">
+              2120 University Ave,Berkeley 94704,California,USA
+            </div>
+          </li>
+          <li class="about-item">
+            <i class="icon iconfont icon-clock"></i>
+            <div class="title">Hours</div>
+            <div class="line"></div>
+            <div class="info">
+              Mon-Fri: 9am to 6pm<br>
+              Sat: 10am to 2pm<br>
+              Sun: Closed
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contact-container module bg-img" style="background-image: url(/public/img/contact/contact-bg.jpg);">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title white">
+            Contact Details
+          </h2>
+        </div>
+        <form action="" class="message">
+          <label for="" class="w50 ml0">
+            <input type="text" placeholder="First Name">
+          </label>
+          <label for="" class="w50 mr0">
+            <input type="text" placeholder="Last Name">
+          </label>
+          <label for="">
+            <input type="text" placeholder="E-mail">
+          </label>
+          <label for="">
+            <textarea name="" id="" cols="30" rows="10" class="scroll" placeholder="Message"></textarea>
+          </label>
+          <button type="submit" class="submit">Brochure</button>
+        </form>
+      </div>
+    </section>
+    <section class="network-container module bg-gray">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title">Global Reseller Network</h2>
+        </div>
+        <div class="network-wrapper">
+          <div class="network-nav-wrap scroll">
+            <ul class="network-nav-list">
+              <li data-id="0" class="network-nav-item active">
+                <a href="javascript:;" title="USA">USA</a>
+              </li>
+              <li data-id="1" class="network-nav-item">
+                <a href="javascript:;" title="Asia/Pacific">Asia/Pacific</a>
+              </li>
+              <li data-id="2" class="network-nav-item">
+                <a href="javascript:;" title="Europe">Europe</a>
+              </li>
+              <li data-id="3" class="network-nav-item">
+                <a href="javascript:;" title="Africa">Africa</a>
+              </li>
+              <li data-id="4" class="network-nav-item">
+                <a href="javascript:;" title="North America">North America</a>
+              </li>
+              <li data-id="5" class="network-nav-item">
+                <a href="javascript:;" title="South America">South America</a>
+              </li>
+            </ul>
+          </div>
+          <div class="network-subnav-wrap">
+            <ul class="network-subnav-list show ">
+              <li data-id="0-0" class="scroll network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">IndonesiaIndonesia</a>
+              </li>
+              <li data-id="0-1" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland ChinaMainland ChinaMainland China</a>
+              </li>
+              <li data-id="0-2" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li data-id="3" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li data-id="4" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li data-id="5" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li data-id="6" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li data-id="7" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li data-id="8" class="scroll network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+            <ul class="network-subnav-list">
+              <li data-id="1-0" class="network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">Indonesia2</a>
+              </li>
+              <li data-id="1-1" class="network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland China</a>
+              </li>
+              <li data-id="1-2" class="network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li data-id="1-3" class="network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li data-id="1-4" class="network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li data-id="1-5" class="network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+            <ul class="network-subnav-list">
+              <li data-id="2-0" class="network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">Indonesia3</a>
+              </li>
+              <li data-id="2-1" class="network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland China</a>
+              </li>
+              <li data-id="2-2" class="network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li data-id="2-0" class="network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+            <ul class="network-subnav-list">
+              <li class="network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">Indonesia4</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland China</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+            <ul class="network-subnav-list">
+              <li class="network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">Indonesia5</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland China</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+            <ul class="network-subnav-list">
+              <li class="network-subnav-item active">
+                <a href="javascript:;" title="Indonesia">Indonesia6</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Mainland China">Mainland China</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Hong Kong">Hong Kong</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Japan">Japan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Singapore">Singapore</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Australia">Australia</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Pakistan">Pakistan</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Korea">Korea</a>
+              </li>
+              <li class="network-subnav-item">
+                <a href="javascript:;" title="Malaysia">Malaysia</a>
+              </li>
+            </ul>
+          </div>
+          <div class="network-cont-wrap scroll">
+            <ul class="network-cont-list">
+              <li data-id="0-0" class="network-cont-item show">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      <p>Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                        Bandar Kemayoran,Jakarta 14410</p>
+                        <p>
+                          P: +62 (21) 22604178
+                        </p>
+                        <p>
+                          F: +62 (21) 22604178
+                        </p>
+                        <p>
+                          M: +62 (813)16600568
+                        </p>
+                        <p>
+                          Email: syahril@credent-asia.com
+                        </p>
+                    </dd>
+
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="0-1" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 0-1
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="0-2" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 0-2
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="1-0" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 1-0
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="1-1" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 1-1
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="1-2" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 1-2
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="2-0" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 2-0
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="2-1" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 2-1
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+              <li data-id="2-2" class="network-cont-item">
+                <div class="network-content">
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi 2-2
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                  <dl class="network-info-list">
+                    <dt class="title">
+                      <a href="/">
+                      PT. Credent Teknologi
+                      </a>
+                    </dt>
+                    <dd>
+                      Tower Fontana 27st Floor Unit BF27F2,The Mansion at Dukuh Golf Kemayoran,Jalan Trembesi Blok D,
+                      Bandar Kemayoran,Jakarta 14410
+                    </dd>
+                    <dd>
+                      P: +62 (21) 22604178
+                    </dd>
+                    <dd>F: +62 (21) 22604178</dd>
+                    <dd>M: +62 (813)16600568</dd>
+                    <dd>Email: syahril@credent-asia.com</dd>
+                  </dl>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

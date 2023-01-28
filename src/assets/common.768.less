@@ -1,0 +1,121 @@
+section.module {
+  padding: 30px 0;
+}
+.module-title {
+  margin-bottom: 30px;
+  .title {
+    font-size: 22px;
+  }
+  .line {
+    width: 60px;
+    height: 2px;
+    margin: 10px auto;
+  }
+  .note {
+    font-size: 14px;
+  }
+}
+section.crumbs-container {
+  background-color: @mainColor;
+  color: #fff;
+  padding: 20px 0;
+  .main-view {
+    .crumbs-wrapper {
+      font-size: 12px;
+      a,
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+section.catelist-container {
+  .main-view {
+    padding: 10px 0;
+    ul.catelist-wrapper {
+      li.cate-item {
+        margin-left: 15px;
+        font-size: 12px;
+      }
+    }
+  }
+}
+a.more.module {
+  font-size: 14px;
+  color: @subColor;
+  &:hover {
+    color: @mainColor;
+  }
+}
+section.banner-container {
+  .main-view {
+    .text {
+      .title {
+        font-size: 32px;
+      }
+      .info {
+        font-size: 22px;
+        margin-bottom: 10px;
+      }
+      .note {
+        line-height: 1.6;
+        font-size: 14px;
+      }
+      ul.btn-list{
+        margin-top: 20px;
+        li.btn-item{
+          margin-right: 10px;
+          margin-bottom: 10px;
+          padding: 5px 20px;
+          a{
+            position: relative;
+            z-index: 1;
+            font-size: 12px;
+          }
+          position: relative;
+          &::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: saturate(@mainColor, 30%);
+            z-index: 0;
+            opacity: .5;
+          }
+          &:hover{
+            a{
+              color: @mainColor;
+            }
+            &::after{
+              background-color: #fff;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+section.adv-container {
+  padding: 50px 0;
+  .main-view {
+    flex-wrap: wrap;
+    .logo{
+      width: 60px;
+      margin-bottom: 20px;
+    }
+    .text {
+      width: 100%;
+      font-size: 14px;
+      margin-bottom: 20px;
+      padding-left: 0;
+    }
+    .download {
+      padding: 5px 20px;
+      font-size: 14px;
+    }
+  }
+}

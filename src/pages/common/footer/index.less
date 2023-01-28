@@ -1,0 +1,81 @@
+@import "~@/assets/global.less";
+footer {
+  background-color: @mainColor;
+  .main-cont {
+    padding: 50px 0;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .company-info {
+      width: 280px;
+      margin-right: 80px;
+      .logo {
+        max-width: 100%;
+        margin-bottom: 20px;
+        img {
+          width: 100%;
+        }
+      }
+      .info {
+        line-height: 1.8;
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      ul.contact-list {
+        li.contact-item {
+          margin-bottom: 15px;
+          display: flex;
+          align-items: flex-start;
+          a {
+            font-size: 14px;
+            &:hover {
+              color: lighten(@mainColor, 30%);
+            }
+          }
+          i.icon {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    ul.nav-list {
+      width: calc(100% - 400px);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      li.nav-item {
+        margin-left: 30px;
+        padding-right: 20px;
+        font-size: 14px;
+        box-sizing: border-box;
+        text-align: center;
+        h3 {
+          font-size: 1.3em;
+          line-height: 2;
+          margin-bottom: 30px;
+        }
+        a {
+          display: block;
+          font-size: 1em;
+          margin-bottom: 10px;
+          &:hover {
+            color: lighten(@mainColor, 30%);
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    border-top: 1px solid lighten(@mainColor, 10%);
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+}
+@import "./1200.less" screen and (max-width: 1200px);
+@import "./768.less" screen and (max-width: 768px);

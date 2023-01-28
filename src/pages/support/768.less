@@ -1,0 +1,115 @@
+section.catelist-container {
+  .main-view {
+    .cate-main{
+      ul.catelist-wrapper {
+        li.cate-item {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+section.support-container {
+  .main-view {
+    ul.support-list {
+      li.support-item {
+        margin: 0 0 10px;
+        width: 100%;
+        padding: 15px 15px 30px;
+      }
+    }
+  }
+}
+section.video-container {
+  .main-view {
+    ul.video-list {
+      display: flex;
+      flex-wrap: wrap;
+      li.video-item {
+        margin: 0 0 10px;
+        width: 100%;
+      }
+    }
+  }
+}
+section.contact-container {
+  .main-view {
+    .forum-wrapper,
+    .contact-wrapper {
+      width: 100%;
+      padding: 10px 0 0;
+      .module-title {
+        .title {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .forum-wrapper {
+      padding-right: 0;
+      border-right: 0;
+      border-bottom: 2px solid @subColor;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      ul.forum-list {
+        margin-top: 20px;
+        width: 100%;
+        li.forum-item {
+          font-size: 16px;
+          padding: 8px 0;
+          margin: 0 auto 10px;
+          a {
+            display: block;
+          }
+          &:hover {
+            color: #fff;
+            // background-image: linear-gradient(90deg, saturate(@subColor, 30%) 0%, darken(@mainColor, 10%) 100%);
+            background-color: @subColor;
+          }
+        }
+      }
+    }
+    .contact-wrapper {
+      padding-left: 0;
+      border-left: none;
+      .contact-infos {
+        border-top: 1px solid @subColor;
+        p {
+          position: relative;
+          padding-left: 1.2em;
+          margin-bottom: 0.5em;
+          &::before {
+            width: 0.5em;
+            height: 0.5em;
+            top: 0.5em;
+          }
+        }
+      }
+      .message {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        label {
+          width: 100%;
+          margin-bottom: 6px;
+          &.w50 {
+            width: calc(50% - 3px);
+          }
+          &.pr {
+            padding-right: 3px;
+          }
+          &.pl {
+            padding-left: 3px;
+          }
+          textarea,
+          input {
+            padding:10px 6px;
+            &::placeholder {
+              font-size: 12px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+}

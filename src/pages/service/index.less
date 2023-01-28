@@ -1,0 +1,86 @@
+@import "~@/assets/global.less";
+.manual-container{
+    img{
+        max-width: 90%;
+        display: block;
+        margin:0 auto;
+    }
+}
+section.industries-container {
+  .main-view {
+    ul.industries-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      li.industries-item {
+          margin: 0 10px 20px;
+          width: calc((100% - 40px) / 3);
+          border-radius: 12px;
+          overflow: hidden;
+          background-color: #fff;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          transition: .6s;
+          &:hover{
+              transform: translateY(-3px);
+          }
+          &:nth-child(3n + 1){
+              margin-left: 0;
+          }
+          &:nth-child(3n + 3){
+              margin-right: 0;
+          }
+          .img-box{
+              border-bottom: 4px solid @mainColor;
+              box-sizing: border-box;
+              position: relative;
+              .img{
+                  padding-top: 48%;
+                  .bgImg(cover);
+              }
+              .title-box{
+                  position: absolute;
+                  left: 50%;
+                  bottom:0;
+                  transform: translateX(-50%);
+                  background-color: @subColor;
+                  padding: 12px 20px 8px;
+                  color: #fff;
+                  border-top-left-radius: 6px;
+                  border-top-right-radius: 6px;
+                  display: flex;
+                  align-items: center;
+                  vertical-align: middle;
+                  span{
+                      margin-left: 5px;
+                      vertical-align: middle;
+                      font-weight: bold;
+                  }
+              }
+          }
+          .text{
+              padding: 15px 20px;
+              p{
+                  position: relative;
+                  padding-left: 1.5em;
+                  font-weight: bold;
+                  color: @mainColor;
+                  line-height: 1.5;
+                  margin-bottom: 10px;
+                  &::before{
+                      content: "";
+                      position: absolute;
+                      width: 1em;
+                      height: 2px;
+                      background-color: @mainColor;
+                      top: .8em;
+                      left: 0;
+                      transform: translateY(-50%);
+                  }
+              }
+          }
+      }
+    }
+  }
+}
+@import "./1200.less" screen and (max-width: 1200px);
+@import "./768.less" screen and (max-width: 768px);

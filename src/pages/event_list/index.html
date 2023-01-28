@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container"
+      style="background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/public/img/blog/banner.jpg);">
+      <div class="main-view center">
+        <div class="text">
+          <div class="title wow fadeInUp" data-wow-delay=".2s">Blog</div>
+          <div class="info wow fadeInUp" data-wow-delay=".5s">You can find the company information here</div>
+        </div>
+      </div>
+    </section>
+    <section class="crumbs-container catelist-container">
+      <div class="main-view center">
+        <div class="crumbs-wrapper wow fadeInLeft">
+          <a href="">HOME</a>
+          <span>&gt;&gt;</span>
+          <a href="">BLOG</a>
+        </div>
+        <div class="main-view cate-main scroll">
+          <ul class="catelist-wrapper wow fadeInRight">
+            <li class="cate-item active">
+              <a href="">Blog-01</a>
+            </li>
+            <li class="cate-item">
+              <a href="">Blog-02</a>
+            </li>
+            <li class="cate-item">
+              <a href="">Blog-03</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="main-container module bg-gray">
+      <div class="main-view center">
+        <aside class="aside-container">
+          <form action="" class="search-container wow fadeInDown">
+            <input type="text" class="search-input" placeholder="Enter Keywords">
+            <button type="submit" class="submit">
+              <i class="icon iconfont icon-sousuo"></i>
+            </button>
+          </form>
+          <div class="post-container wow fadeInUp">
+            <div class="title">Popular Post</div>
+            <div class="line"></div>
+            <ul class="post-list">
+              <li class="post-item">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="post-title">
+                    Digital Photography Tips &Essentials
+                  </div>
+                  <div class="date">
+                    25 Jun 2021
+                  </div>
+                </div>
+              </li>
+              <li class="post-item">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="post-title">
+                    Digital Photography Tips &Essentials
+                  </div>
+                  <div class="date">
+                    25 Jun 2021
+                  </div>
+                </div>
+              </li>
+              <li class="post-item">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="post-title">
+                    Digital Photography Tips &Essentials
+                  </div>
+                  <div class="date">
+                    25 Jun 2021
+                  </div>
+                </div>
+              </li>
+              <li class="post-item">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="post-title">
+                    Digital Photography Tips &Essentials
+                  </div>
+                  <div class="date">
+                    25 Jun 2021
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tags-container wow fadeInUp">
+            <div class="title">Popular Tags</div>
+            <div class="line"></div>
+            <ul class="tag-list">
+              <li class="tag-item">
+                <a href="">Renovation</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Architecture</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Concrete</a>
+              </li>
+              <li class="tag-item">
+                <a href="">HTML</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Wordpress</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Flooring</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Interior</a>
+              </li>
+              <li class="tag-item">
+                <a href="">Development</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <div class="news-wrapper">
+          <ul class="news-list">
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation Renovation Renovation Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="news-item wow fadeInRight">
+              <a href="event_view.html">
+                <div class="img" style="background-image: url(/public/img/blog/blog01.jpg);"></div>
+                <div class="text">
+                  <div class="date">05 Jan 2021</div>
+                  <div class="title">Best House Renovation</div>
+                  <div class="info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam obcaecati magnam?
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/talk/index.html") %>
+      <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

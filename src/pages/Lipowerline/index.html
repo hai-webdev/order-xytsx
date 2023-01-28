@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container"
+      style="background-image:linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/public/img/product/lipowerline_banner.jpg);">
+      <div class="main-view center">
+        <div class="text">
+          <div class="title wow fadeInUp" data-wow-delay=".2s">LiPowerline</div>
+          <div class="info wow fadeInUp" data-wow-delay=".5s">Point cloud Processing software for power linr Inspestion
+            a Analysis</div>
+          <ul class="btn-list">
+            <li class="btn-item wow fadeInRight">
+              <a href="">Brochure</a>
+            </li>
+            <li class="btn-item wow fadeInRight">
+              <a href="">Userguid</a>
+            </li>
+            <li class="btn-item wow fadeInRight">
+              <a href="">Solution / Aplincation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="framework-container module">
+      <div class="main-view center">
+        <div class="framework-text wow fadeInLeft">
+          <div class="title">
+            Framework
+          </div>
+          <div class="info">
+            LiPowerline offers a complete and intuitive solution for power line inspection from LiDAR point clouds. It
+            includes a powerful toolset for automatically classifying power lines, towers and vegetations, manually
+            augmenting the classification results, and effectively detecting a range of user-defined danger points
+            (e.g., vegetation overgrowth and tree fall). It’s built-in reporting function allows users to quickly
+            generate detailed project reports and export inspection results to KML file format.
+          </div>
+        </div>
+        <div class="framework-video wow fadeInRight">
+          <iframe class="framework-video-wrap"
+            src="https://www.youtube.com/embed/EDZT8Ag42nk?feature=oembed" scrolling="no"
+            border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="real-time-container module bg-green">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title white wow fadeInUp">Real-Time Working Condifion Analysis</h2>
+        </div>
+        <ul class="cont-list">
+          <li class="cont-item wow fadeInUp">
+            ndividual tree segmentation by span/section
+          </li>
+          <li class="cont-item wow fadeInUp">
+            Extract danger points along power lines
+          </li>
+          <li class="cont-item wow fadeInUp">
+            Detect individual tree information such as location, height, crown size, etc.
+          </li>
+        </ul>
+        <div class="imgs">
+          <img class="w60 pr wow fadeInLeft" src="/public/img/product/real-time01.jpg" alt="">
+          <img class="w40 pl wow fadeInRight" src="/public/img/product/real-time02.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="main-cont-container module bg-gray">
+      <div class="main-view center">
+        <ul class="main-cont-list">
+          <li class="main-cont-item">
+            <div class="cont-text pr wow fadeInLeft">
+              <div class="title">
+                Simulate & Prelict Environmental Variabilitiy
+              </div>
+              <div class="info">
+                <p>
+                  Utilize individual tree segmentation to identify danger points i.e., vegetation overgrowth. Metrics
+                  include tree location, height, crown size and more.
+                </p>
+                <p>
+                  Utilize individual tree segmentation to identify danger points i.e., vegetation overgrowth. Metrics
+                  include tree location, height, crown size and more.
+                </p>
+              </div>
+            </div>
+            <div class="cont-img pl wow fadeInRight">
+              <img src="/public/img/product/real-time03.jpg" alt="">
+            </div>
+          </li>
+          <li class="main-cont-item">
+            <div class="cont-img pr wow fadeInLeft">
+              <img src="/public/img/product/real-time04.jpg" alt="">
+            </div>
+            <div class="cont-text pl wow fadeInRight">
+              <div class="title">
+                Inspections Based on LiDAR Data
+              </div>
+              <div class="info">
+                <p>
+                  Utilize individual tree segmentation to identify danger points i.e., vegetation overgrowth. Metrics
+                  include tree location, height, crown size and more.
+                </p>
+                <p>
+                  Utilize individual tree segmentation to identify danger points i.e., vegetation overgrowth. Metrics
+                  include tree location, height, crown size and more.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="main-cont-item">
+            <div class="cont-img pr wow fadeInLeft">
+              <img class="w50" src="/public/img/product/real-time05.jpg" alt="">
+              <img class="w50" src="/public/img/product/real-time06.jpg" alt="">
+            </div>
+            <div class="cont-img pl wow fadeInRight">
+              <img src="/public/img/product/real-time07.jpg" alt="">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="real-time-container module bg-green">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title white wow fadeInUp">
+            Detailed Transmission Tower Inspections
+          </h2>
+        </div>
+        <ul class="cont-list">
+          <li class="cont-item wow fadeInUp">
+            Detailed transmission tower inspections support capturing a large set of high-resolution images of the main
+            components of
+            the tower, and typical issues that analysts identify using drone-based imagery include structural issues,
+            missing and backedout cotter pins, cracked insulators, vegetation concerns and so on
+          </li>
+          <li class="cont-item wow fadeInUp">
+            In short, you can use our system to identify hard-to-find maintenance issues—before they degrade performance
+            or cause a
+            critical failure.
+          </li>
+          <li class="cont-item wow fadeInUp">
+            Moreover, LiPowerline contains functions that allow users to plan efficient transmission tower inspection
+            flight routes. These
+            flight plans can then be imported into the ground control software. These flight route planning functions
+            can significantly
+            reduce the cost of inspections by improving data collection efficiency. Users can also simulate the flight
+            in the point cloud
+            data before heading to the field in order to determine if the proposed route is safe or not to fly.
+
+          </li>
+        </ul>
+        <div class="imgs">
+          <img class="w60 pr wow fadeInLeft" src="/public/img/product/real-time08.jpg" alt="">
+          <img class="w40 pl wow fadeInRight" src="/public/img/product/real-time09.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="solutions-cointainer module bg-gray">
+      <div class="main-view center">
+        <div class="module-title">
+          <h2 class="title">
+            Solutions / Applications
+          </h2>
+        </div>
+        <ul class="solution-list">
+          <li class="solution-item wow fadeInLeft">
+            <div class="img" style="background-image: url(/public/img/product/solution01.jpg);">
+            </div>
+            <div class="text">
+              <div class="title">Infrastructure</div>
+              <div class="note">
+                Modeland classify powerline infrasfructure and iaridor features.
+                Modeland classify powerline infrasfructure and iaridor features.
+                Modeland classify powerline infrasfructure and iaridor features.
+              </div>
+            </div>
+          </li>
+          <li class="solution-item wow fadeInRight">
+            <div class="img" style="background-image: url(/public/img/product/solution02.jpg);">
+            </div>
+            <div class="text">
+              <div class="title">Automatic Detection</div>
+              <div class="note">
+                Automatic danger point detection.
+              </div>
+            </div>
+          </li>
+          <li class="solution-item wow fadeInLeft">
+            <div class="img" style="background-image: url(/public/img/product/solution03.jpg);">
+            </div>
+            <div class="text">
+              <div class="title">Analog Data</div>
+              <div class="note">
+                Simulate inpacts of weather on powerline clearance  zones.
+              </div>
+            </div>
+          </li>
+          <li class="solution-item wow fadeInRight">
+            <div class="img" style="background-image: url(/public/img/product/solution04.jpg);">
+            </div>
+            <div class="text">
+              <div class="title">Warning Analycis</div>
+              <div class="note">
+                Eary warning Analycis.
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/talk/index.html") %>
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>

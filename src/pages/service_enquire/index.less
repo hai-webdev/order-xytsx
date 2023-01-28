@@ -1,0 +1,138 @@
+@import "~@/assets/global.less";
+body{
+  overflow: hidden;
+}
+section.pics-switch-container{
+  ul.pics-list{
+    position: relative;
+    display: flex;
+    
+    height: 100%;
+    li.pic-item{
+      .bgImg(cover);
+      cursor: pointer;
+      position: relative;
+      flex: 0 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      .icon{
+        width: 150px;
+        max-width: 150px;
+        margin-bottom: 30px;
+        transition: .6s;
+        position: absolute;
+        left: 50%;
+        top: calc(50% - 75px);
+        transform: translate(-50%, -50%);
+        img{
+          width: 100%;
+        }
+      }
+      .text{
+        color:#fff;
+        text-align: center;
+        width: 100%;
+        padding: 150px 30px 0;
+        box-sizing: border-box;
+        transition: .6s;
+        .title{
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .desc{
+          width: 100%;
+          box-sizing: border-box;
+          display: none;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3; //行数
+          -webkit-box-orient: vertical;
+        }
+      }
+      &.active{
+        align-items: flex-start;
+        .icon{
+          margin-left: 30px;
+          left: 0;
+          transform: translate(0, -50%);
+          transition: .6s;
+        }
+        .text{
+          text-align: left;
+          .desc{
+            display: block;
+            opacity: 1;
+            display: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3; //行数
+            -webkit-box-orient: vertical;
+          }
+        }
+      }
+    }
+  }
+}
+section.m-pics-switch-container{
+  display: none;
+  ul.pics-list{
+    position: relative;
+    li.m-pic-item{
+      .bgImg(cover);
+      display: flex;
+      flex-direction: column;
+      padding: 30px 0;
+      width: 100%;
+      .icon{
+        width: 66px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        transition: .6s;
+        img{
+          width: 100%;
+        }
+      }
+      .text{
+        color:#fff;
+        text-align: center;
+        width: 100%;
+        transition: .6s;
+        .title{
+          font-size: 22px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        .desc{
+          width: 90%;
+          margin: 0 auto;
+          font-size: 14px;
+          text-align: justify;
+          box-sizing: border-box;
+        }
+      }
+      &.active{
+        align-items: flex-start;
+        .icon{
+          margin-left: 30px;
+        }
+        .text{
+          text-align: left;
+          .desc{
+            display: block;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+@import "./768.less" screen and (max-width:768px);
